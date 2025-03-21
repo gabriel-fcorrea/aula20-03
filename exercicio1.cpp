@@ -2,37 +2,29 @@
 
 using namespace std;
 
-double nota1, nota2, nota3;
+double num1, num2, num3, num4, num5; 
 
 int main() {
-
-cout << "Digite a primeira nota: " << endl;
-cin >> nota1;
-cout << "Digite a segunda nota: " << endl;
-cin >> nota2;
-cout << "Digite a terceira nota: " << endl;
-cin >> nota3;
 	
-double media = (nota1+nota2+nota3)/3;
 
-cout << "A sua media foi: " << media << endl;
+cout << "Digite o primeiro número: " << endl;
+cin >> num1;
+cout << "Digite o segundo número: " << endl;
+cin >> num2;
+cout << "Digite o terceiro número: " << endl;
+cin >> num3;
+cout << "Digite o quarto número: " << endl;
+cin >> num4;
+cout << "Digite o quinto número: " << endl;
+cin >> num5;
 
-	if (media == 10){
-cout << "Excelente!";
-}
-else if (media >= 9 && media < 10){
-cout << "Muito bom!";
-}
-else if (media >= 7 && media < 9){
-cout << "Bom";
-}
-else if (media >= 6 && media < 7){
-cout << "Regular";
-}
-else
-{
-cout << "Insuficiente";
-}
+int soma = num1+num2+num3+num4+num5;
+
+double media = soma/5;
+
+cout << "A soma é: " << soma << endl;
+cout << "A media é: " << media << endl;
+
 return 0;
 }
 
