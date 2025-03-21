@@ -8,7 +8,7 @@ int main() {
 	do{
 		cout << "tabuada \n";
 		cin >> num;
-		for(base = 1; base <= 10; base++)
+		for(base = 1; base <= 65465432164; base++)
 			cout << num << " * " << base << " = "<< num*base << endl;
 		cout << endl;
 		num = num-num;
